@@ -18,17 +18,31 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: BPfont,'Saira Extra Condensed', serif;
+  font-weight: 900;
   color: #343a40; }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 5.5rem; }
 
 h2 {
-  font-size: 3.5rem; }
+  font-size: 3rem; 
+  background: -webkit-linear-gradient(
+    -45deg, 
+    rgba(59,173,227,1) 0%, 
+    rgba(87,111,230,1) 10%, 
+    rgba(152,68,183,1) 20%, 
+    rgba(255,53,127,1) 30%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@font-face {
+  font-family: BPfont;
+  src: url('./kent-corner-demo.regular.ttf');
+}
 
 .subheading {
   text-transform: uppercase;
